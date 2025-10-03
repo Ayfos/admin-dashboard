@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- CONTENEDOR PRINCIPAL -->
+    <div class="container">
+        
+        <!-- SIDEBAR -->
+        <div class="bloque-azul">
+            <div class="dashboard-menu">
+                <img src="icons/view-dashboard.svg" alt="logotipo de dashboard">
+                <h1>Dashboard</h1>
+            </div>
+            <div class="menuItem">
+                <img src="icons/home.svg" alt="icono de home">
+                <h1>Home</h1>
+            </div>
+            <div class="menuItem">
+                <img src="icons/card-account-details-outline.svg" alt="icono de perfil">
+                <h1>Profile</h1>
+            </div>
+            <div class="menuItem">
+                <img src="icons/message-reply.svg" alt="icono de mensajes">
+                <h1>Messages</h1>
+            </div>
+            <div class="menuItem">
+                <img src="icons/note-multiple.svg" alt="logo de tareas">
+                <h1>Tasks</h1>
+            </div>
+            <div class="menuItem">
+                <img src="icons/account-group.svg" alt="logo de comunidades">
+                <h1>Communities</h1>
+            </div>
+            <div class="menuItem">
+                <img src="icons/cog.svg" alt="logo de configuraciones">
+                <h1>Settings</h1>
+            </div>
+            <div class="menuItem">
+                <img src="icons/help-box.svg" alt="logo de soporte">
+                <h1>Support</h1>
+            </div>
+            <div class="menuItem">
+                <img src="icons/shield-check.svg" alt="logo de privacidad">
+                <h1>Privacy</h1>
+            </div>
+        </div>
+        <!-- FIN SIDEBAR -->
+
+        <!-- NAVBAR -->
+        <div class="navbar">
+            <div class="topNav">
+                <div class="search">
+                    <div class="menuItem">
+                        <img src="icons/magnify.svg" alt="icono de lupa">
+                    </div>
+                    <input type="text" name="search" id="search" autocomplete="off">
+                </div>
+                <div class="account">
+                    <div class="menuIcon">
+                        <img src="icons/bell-ring-outline.svg" alt="logo de notificaciones" height="20px" width="20px">
+                    </div>
+                    <div class="avatar">
+                        <img src="icons/extraterrestre.png" alt="foto de perfil" height="40px" width="40px">
+                    </div>
+                    <p class="userName">Morgan Oakley</p>
+                </div>
+            </div>
+            
+            <!--seccion de botones-->
+            <div class="botton">
+                <!-- Perfil del usuario -->
+                <div class="profile">
+                    <div class="avatar">
+                        <img src="icons/extraterrestre.png" alt="icono avatar" height="40px" width="40px">
+                    </div>
+                    <div class="profile-name">
+                        <p class="greeting">Hi there,</p>
+                        <p class="name">Morgan Oakey <span class="userName">(@morgan)</span></p>
+                    </div>
+                </div>
+                
+                <!-- Botones a la derecha -->
+                <div class="buttons">
+                    <button class="btn">New</button>
+                    <button class="btn">Upload</button>
+                    <button class="btn">Share</button>
+                </div>
+            </div>
+        </div>
+        <!-- FIN NAVBAR -->
+
+        <!-- CONTENIDO PRINCIPAL -->
+        <main class="content">
+            <!-- SECCIÓN DE PROYECTOS -->
+            <div class="projects">
+                <h3>Your Projects</h3>
+                <!--Sección de tarjetas de proyectos(projects)-->
+                <div class="cards">
+                    <!-- Tarjeta de proyecto individual en total 6 tarjetas-->
+                    <div class="card">
+                        <h5 class="card-title">Super Cool Project</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Fugiat cumque dignissimos tenetur provident adipisci
+                            aspernatur nesciunt, natus quis.
+                        </p>
+                        <div class="icons">
+                            <img src="icons/star-plus-outline.svg" alt="icono de estrella" height="20px" width="20px">
+                            <img src="icons/eye-plus-outline.svg" alt="icono de ojo" height="20px" width="20px">
+                            <img src="icons/source-fork.svg" alt="icono de compartir" height="20px" width="20px">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h5 class="card-title">Less Cool Project</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Fugiat cumque dignissimos tenetur provident adipisci, voluptate cum animi voluptatibus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum unde, quisquam quod quis.
+                        </p>
+                        <div class="icons">
+                            <img src="icons/star-plus-outline.svg" alt="icono de estrella" height="20px" width="20px">
+                            <img src="icons/eye-plus-outline.svg" alt="icono de ojo" height="20px" width="20px">
+                            <img src="icons/source-fork.svg" alt="icono de compartir" height="20px" width="20px">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h5 class="card-title">Impossible App</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Fugiat cumque dignissimos tenetur provident adipisci,
+                            id vol.
+                        </p>
+                        <div class="icons">
+                            <img src="icons/star-plus-outline.svg" alt="icono de estrella" height="20px" width="20px">
+                            <img src="icons/eye-plus-outline.svg" alt="icono de ojo" height="20px" width="20px">
+                            <img src="icons/source-fork.svg" alt="icono de compartir" height="20px" width="20px">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h5 class="card-title">Easy Peasy App</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Fugiat cumque dignissimos tenetur provident adipisci, voluptate cum animi voluptatibus
+                            aspernatur nesciunt, natus quis.
+                        </p>
+                        <div class="icons">
+                            <img src="icons/star-plus-outline.svg" alt="icono de estrella" height="20px" width="20px">
+                            <img src="icons/eye-plus-outline.svg" alt="icono de ojo" height="20px" width="20px">
+                            <img src="icons/source-fork.svg" alt="icono de compartir" height="20px" width="20px">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h5 class="card-title">Ad Bloker</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Fugiat cumque dignissimos tenetur provident adipisci, voluptate cum animi voluptatibus.
+                        </p>
+                        <div class="icons">
+                            <img src="icons/star-plus-outline.svg" alt="icono de estrella" height="20px" width="20px">
+                            <img src="icons/eye-plus-outline.svg" alt="icono de ojo" height="20px" width="20px">
+                            <img src="icons/source-fork.svg" alt="icono de compartir" height="20px" width="20px">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h5 class="card-title">Money Maker</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Fugiat cumque dignissimos tenetur provident adipisci, voluptate cum animi voluptatibus
+                            aspernatur nesciunt, natus quis.
+                        </p>
+                        <div class="icons">
+                            <img src="icons/star-plus-outline.svg" alt="icono de estrella" height="20px" width="20px">
+                            <img src="icons/eye-plus-outline.svg" alt="icono de ojo" height="20px" width="20px">
+                            <img src="icons/source-fork.svg" alt="icono de compartir" height="20px" width="20px">
+                        </div>
+                    </div>
+                </div>
+                <!--Fin de sección de tarjetas de proyectos-->
+            </div>
+
+            <!-- CONTENIDO LATERAL (Announcements y Trending) -->
+            <div class="aside">
+                <!-- TÍTULO FUERA DEL RECUADRO -->
+                <h3>Announcements</h3>
+                
+                <!--Contenido lateral Announcements -->
+                <div class="announcements">
+                    <ul class="announcement-list">
+                        <!--Lista de anuncios individuales-->
+                        <li class="announcement-item">
+                            <h5 class="card-title">Site Maintenance</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                        </li>  
+                        <li class="announcement-item">
+                            <h5 class="card-title">Community Share Day</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                        </li>  
+                        <li class="announcement-item">
+                            <h5 class="card-title">Update Privacy Pollcy</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                        </li>  
+                    </ul>
+                </div>
+
+                <!-- TÍTULO FUERA DEL RECUADRO -->
+                <h3>Trending</h3>
+
+                <!--Sección de Tendencias(Trending) -->
+                <div class="trending">
+                    <ul class="trending-list">
+                        <!--lista de tendencias perfiles-->
+                        <li class="trend">
+                            <div class="avatar">
+                                <img src="icons/buho.png" alt="perfil con foto de buho" height="40px" width="40px">
+                            </div>
+                            <div class="accounts">
+                                <p class="username">@tegan</p>
+                                <p class="name card-text">World Peace Builder</p>
+                            </div>
+                        </li>
+                        <li class="trend">
+                            <div class="avatar">
+                                <img src="icons/extraterrestre.png" alt="perfil con foto de extraterrestre" height="40px" width="40px">
+                            </div>
+                            <div class="accounts">
+                                <p class="username">@morgan</p>
+                                <p class="name card-text">Super Cool Proyect</p>
+                            </div>
+                        </li>
+                        <li class="trend">
+                            <div class="avatar">
+                                <img src="icons/hombre.png" alt="perfil con foto de hombre" height="40px" width="40px">
+                            </div>
+                            <div class="accounts">
+                                <p class="username">@kendall</p>
+                                <p class="name card-text">Life Changing App</p>
+                            </div>
+                        </li>
+                        <li class="trend">
+                            <div class="avatar">
+                                <img src="icons/muchacha.png" alt="perfil con foto de muchacha" height="40px" width="40px">
+                            </div>
+                            <div class="accounts">
+                                <p class="username">@alexa</p>
+                                <p class="name card-text">No traffic Maker</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
